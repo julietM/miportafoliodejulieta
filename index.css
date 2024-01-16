@@ -1,8 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
 *{
     box-sizing: 0;
     margin: 0;
+    box-sizing: 0;
+    padding: 0;
+}
+body{
+    height: 200px;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: black;
 }
 h1{
     text-align: center;
-    color: red ;
+    color: white;
+    line-height: 100px;
+    font-family: 'Dosis', sans-serif;
+}
+.box{
+    width: 70%;
+    height: 320px;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-family: 'Dosis', sans-serif;
+    padding-top: 55px;
+}
+.text{
+    width: 45%;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.list{
+    padding-left: 220px;
+}
+.list li{
+    font-family:'Dosis', sans-serif;
+    display: inline-block;
+    padding: 40px;
+    
+    
+}
+.h11{
+    color: black;
+    font-family:'Dosis', sans-serif ;
+    text-align: center;
+}
+p{
+    width: 76%;
+    font-family:'Dosis', sans-serif ;
+    padding-left: 190px;
+    font-size: 18px;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-top: 55px;
+}
+  
+  .galeria img{
+    width: 260px;
+    height: 220px;
+    padding: 1px;
+    border-radius: 50%;
+    border:5px solid orange;
+    margin: 25px;
+  }
+  .text2{
+    color: black;
+    font-family: 'Dosis', sans-serif  ;
+  }
+  .formulario{
+    width: 900px;
+    height: 650px;
+    background-color: orange;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  label{
+   color: black;
+   font-family:'Dosis', sans-serif;
+   position: absolute;
+   left: 35px;
+   padding-top: 30px;
+   cursor: text;
+  }
+  input{    
+    width:90%;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 29px;
+    outline: 0;
+    font-family:'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+   border: none;
+   padding-left: 5px;
+    
+  }
+  textarea{
+    width:90%;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 29px; 
+    font-family:'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+  }
+  .tarea{
+    padding-top: 10px;
+  }
+  .btn{
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  footer{
+    width: 100%;
+    height: 55px;
+    background-color: black;
+    text-align: center;
+    padding-top: 20px;
+  }
+  footer li{
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    margin: 12px;
+  }
+  .footer-icon a{
+    color: white;
+  }
+  a:hover{
+    color: orangered;
+  }
+
+@media(max-width:700px){
+    .box{
+        height: 500px;
+    }
+    
+    .text{
+        padding-left: 40px;
+        width: 200px;
+    }
+    .list{
+        padding-left: 46px;
+    }
+    .list li{
+        display: flex;
+        font-weight: bold;
+    }
+    p{
+        padding-left: 40px;
+        color: black;
+        font-weight: bold;
+    }
+    .formulario{
+        width: 100%;
+    }
+    input{
+        margin-left: 16px;
+    }
+    textarea{
+        margin-left: 16px;
+    }
+    
+    
 }
